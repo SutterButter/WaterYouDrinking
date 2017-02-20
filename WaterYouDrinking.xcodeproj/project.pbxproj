@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FC790411E5BB62500EAF310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790401E5BB62500EAF310 /* AppDelegate.swift */; };
+		4FC790431E5BB62500EAF310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790421E5BB62500EAF310 /* ViewController.swift */; };
+		4FC790461E5BB62500EAF310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC790441E5BB62500EAF310 /* Main.storyboard */; };
+		4FC790481E5BB62500EAF310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC790471E5BB62500EAF310 /* Assets.xcassets */; };
+		4FC7904B1E5BB62500EAF310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC790491E5BB62500EAF310 /* LaunchScreen.storyboard */; };
+		4FC790561E5BB62500EAF310 /* WaterYouDrinkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790551E5BB62500EAF310 /* WaterYouDrinkingTests.swift */; };
+		4FC790611E5BB62500EAF310 /* WaterYouDrinkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790601E5BB62500EAF310 /* WaterYouDrinkingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FC790521E5BB62500EAF310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC790351E5BB62500EAF310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC7903C1E5BB62500EAF310;
+			remoteInfo = WaterYouDrinking;
+		};
+		4FC7905D1E5BB62500EAF310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC790351E5BB62500EAF310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC7903C1E5BB62500EAF310;
+			remoteInfo = WaterYouDrinking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FC7903D1E5BB62500EAF310 /* WaterYouDrinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterYouDrinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC790401E5BB62500EAF310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FC790421E5BB62500EAF310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FC790451E5BB62500EAF310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FC790471E5BB62500EAF310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC7904A1E5BB62500EAF310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FC7904C1E5BB62500EAF310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC790511E5BB62500EAF310 /* WaterYouDrinkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterYouDrinkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC790551E5BB62500EAF310 /* WaterYouDrinkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterYouDrinkingTests.swift; sourceTree = "<group>"; };
+		4FC790571E5BB62500EAF310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC7905C1E5BB62500EAF310 /* WaterYouDrinkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterYouDrinkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC790601E5BB62500EAF310 /* WaterYouDrinkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterYouDrinkingUITests.swift; sourceTree = "<group>"; };
+		4FC790621E5BB62500EAF310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC7903A1E5BB62500EAF310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC7904E1E5BB62500EAF310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC790591E5BB62500EAF310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC790341E5BB62500EAF310 = {
+			isa = PBXGroup;
+			children = (
+				4FC7903F1E5BB62500EAF310 /* WaterYouDrinking */,
+				4FC790541E5BB62500EAF310 /* WaterYouDrinkingTests */,
+				4FC7905F1E5BB62500EAF310 /* WaterYouDrinkingUITests */,
+				4FC7903E1E5BB62500EAF310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC7903E1E5BB62500EAF310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC7903D1E5BB62500EAF310 /* WaterYouDrinking.app */,
+				4FC790511E5BB62500EAF310 /* WaterYouDrinkingTests.xctest */,
+				4FC7905C1E5BB62500EAF310 /* WaterYouDrinkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC7903F1E5BB62500EAF310 /* WaterYouDrinking */ = {
+			isa = PBXGroup;
+			children = (
+				4FC790401E5BB62500EAF310 /* AppDelegate.swift */,
+				4FC790421E5BB62500EAF310 /* ViewController.swift */,
+				4FC790441E5BB62500EAF310 /* Main.storyboard */,
+				4FC790471E5BB62500EAF310 /* Assets.xcassets */,
+				4FC790491E5BB62500EAF310 /* LaunchScreen.storyboard */,
+				4FC7904C1E5BB62500EAF310 /* Info.plist */,
+			);
+			path = WaterYouDrinking;
+			sourceTree = "<group>";
+		};
+		4FC790541E5BB62500EAF310 /* WaterYouDrinkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC790551E5BB62500EAF310 /* WaterYouDrinkingTests.swift */,
+				4FC790571E5BB62500EAF310 /* Info.plist */,
+			);
+			path = WaterYouDrinkingTests;
+			sourceTree = "<group>";
+		};
+		4FC7905F1E5BB62500EAF310 /* WaterYouDrinkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC790601E5BB62500EAF310 /* WaterYouDrinkingUITests.swift */,
+				4FC790621E5BB62500EAF310 /* Info.plist */,
+			);
+			path = WaterYouDrinkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC7903C1E5BB62500EAF310 /* WaterYouDrinking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC790651E5BB62500EAF310 /* Build configuration list for PBXNativeTarget "WaterYouDrinking" */;
+			buildPhases = (
+				4FC790391E5BB62500EAF310 /* Sources */,
+				4FC7903A1E5BB62500EAF310 /* Frameworks */,
+				4FC7903B1E5BB62500EAF310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterYouDrinking;
+			productName = WaterYouDrinking;
+			productReference = 4FC7903D1E5BB62500EAF310 /* WaterYouDrinking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FC790501E5BB62500EAF310 /* WaterYouDrinkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC790681E5BB62500EAF310 /* Build configuration list for PBXNativeTarget "WaterYouDrinkingTests" */;
+			buildPhases = (
+				4FC7904D1E5BB62500EAF310 /* Sources */,
+				4FC7904E1E5BB62500EAF310 /* Frameworks */,
+				4FC7904F1E5BB62500EAF310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC790531E5BB62500EAF310 /* PBXTargetDependency */,
+			);
+			name = WaterYouDrinkingTests;
+			productName = WaterYouDrinkingTests;
+			productReference = 4FC790511E5BB62500EAF310 /* WaterYouDrinkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FC7905B1E5BB62500EAF310 /* WaterYouDrinkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC7906B1E5BB62500EAF310 /* Build configuration list for PBXNativeTarget "WaterYouDrinkingUITests" */;
+			buildPhases = (
+				4FC790581E5BB62500EAF310 /* Sources */,
+				4FC790591E5BB62500EAF310 /* Frameworks */,
+				4FC7905A1E5BB62500EAF310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC7905E1E5BB62500EAF310 /* PBXTargetDependency */,
+			);
+			name = WaterYouDrinkingUITests;
+			productName = WaterYouDrinkingUITests;
+			productReference = 4FC7905C1E5BB62500EAF310 /* WaterYouDrinkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC790351E5BB62500EAF310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Noah Sutter";
+				TargetAttributes = {
+					4FC7903C1E5BB62500EAF310 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KXWDJEL2WR;
+						ProvisioningStyle = Automatic;
+					};
+					4FC790501E5BB62500EAF310 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KXWDJEL2WR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FC7903C1E5BB62500EAF310;
+					};
+					4FC7905B1E5BB62500EAF310 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KXWDJEL2WR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FC7903C1E5BB62500EAF310;
+					};
+				};
+			};
+			buildConfigurationList = 4FC790381E5BB62500EAF310 /* Build configuration list for PBXProject "WaterYouDrinking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC790341E5BB62500EAF310;
+			productRefGroup = 4FC7903E1E5BB62500EAF310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC7903C1E5BB62500EAF310 /* WaterYouDrinking */,
+				4FC790501E5BB62500EAF310 /* WaterYouDrinkingTests */,
+				4FC7905B1E5BB62500EAF310 /* WaterYouDrinkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC7903B1E5BB62500EAF310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC7904B1E5BB62500EAF310 /* LaunchScreen.storyboard in Resources */,
+				4FC790481E5BB62500EAF310 /* Assets.xcassets in Resources */,
+				4FC790461E5BB62500EAF310 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC7904F1E5BB62500EAF310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC7905A1E5BB62500EAF310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC790391E5BB62500EAF310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC790431E5BB62500EAF310 /* ViewController.swift in Sources */,
+				4FC790411E5BB62500EAF310 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC7904D1E5BB62500EAF310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC790561E5BB62500EAF310 /* WaterYouDrinkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC790581E5BB62500EAF310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC790611E5BB62500EAF310 /* WaterYouDrinkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC790531E5BB62500EAF310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC7903C1E5BB62500EAF310 /* WaterYouDrinking */;
+			targetProxy = 4FC790521E5BB62500EAF310 /* PBXContainerItemProxy */;
+		};
+		4FC7905E1E5BB62500EAF310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC7903C1E5BB62500EAF310 /* WaterYouDrinking */;
+			targetProxy = 4FC7905D1E5BB62500EAF310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FC790441E5BB62500EAF310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC790451E5BB62500EAF310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FC790491E5BB62500EAF310 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC7904A1E5BB62500EAF310 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FC790631E5BB62500EAF310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FC790641E5BB62500EAF310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FC790661E5BB62500EAF310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
+				INFOPLIST_FILE = WaterYouDrinking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoahJSutter.WaterYouDrinking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4FC790671E5BB62500EAF310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
+				INFOPLIST_FILE = WaterYouDrinking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoahJSutter.WaterYouDrinking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4FC790691E5BB62500EAF310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
+				INFOPLIST_FILE = WaterYouDrinkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoahJSutter.WaterYouDrinkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterYouDrinking.app/WaterYouDrinking";
+			};
+			name = Debug;
+		};
+		4FC7906A1E5BB62500EAF310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
+				INFOPLIST_FILE = WaterYouDrinkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoahJSutter.WaterYouDrinkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterYouDrinking.app/WaterYouDrinking";
+			};
+			name = Release;
+		};
+		4FC7906C1E5BB62500EAF310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
+				INFOPLIST_FILE = WaterYouDrinkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoahJSutter.WaterYouDrinkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaterYouDrinking;
+			};
+			name = Debug;
+		};
+		4FC7906D1E5BB62500EAF310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KXWDJEL2WR;
+				INFOPLIST_FILE = WaterYouDrinkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NoahJSutter.WaterYouDrinkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaterYouDrinking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC790381E5BB62500EAF310 /* Build configuration list for PBXProject "WaterYouDrinking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC790631E5BB62500EAF310 /* Debug */,
+				4FC790641E5BB62500EAF310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC790651E5BB62500EAF310 /* Build configuration list for PBXNativeTarget "WaterYouDrinking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC790661E5BB62500EAF310 /* Debug */,
+				4FC790671E5BB62500EAF310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FC790681E5BB62500EAF310 /* Build configuration list for PBXNativeTarget "WaterYouDrinkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC790691E5BB62500EAF310 /* Debug */,
+				4FC7906A1E5BB62500EAF310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FC7906B1E5BB62500EAF310 /* Build configuration list for PBXNativeTarget "WaterYouDrinkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC7906C1E5BB62500EAF310 /* Debug */,
+				4FC7906D1E5BB62500EAF310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC790351E5BB62500EAF310 /* Project object */;
+}
