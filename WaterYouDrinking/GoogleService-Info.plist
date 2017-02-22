@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>520234100986-nqr6ajkr1quf9r83bgha26j0augitm8s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.520234100986-nqr6ajkr1quf9r83bgha26j0augitm8s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJty9-BMQL5tQ6x2RXi6lHS7AQ9tiiyTE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>520234100986</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.NoahJSutter.WaterYouDrinking</string>
+	<key>PROJECT_ID</key>
+	<string>water-app-96cf3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>water-app-96cf3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:520234100986:ios:04eacaa55b95525b</string>
+	<key>DATABASE_URL</key>
+	<string>https://water-app-96cf3.firebaseio.com</string>
+</dict>
+</plist>
