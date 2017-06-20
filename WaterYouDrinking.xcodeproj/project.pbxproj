@@ -8,9 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		13FE1470790A934DE054DA1B /* Pods_WaterYouDrinkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD34C141DF6FD33DDEA1C25 /* Pods_WaterYouDrinkingUITests.framework */; };
+		4F451A551EAC5EBB001F3C09 /* WSRTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F451A541EAC5EBB001F3C09 /* WSRTableViewCell.swift */; };
+		4F451A571EAC6035001F3C09 /* WSRTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F451A561EAC6035001F3C09 /* WSRTableViewController.swift */; };
+		4F5DF4E81EAD510B0031EB7B /* WPRTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DF4E71EAD510B0031EB7B /* WPRTableViewController.swift */; };
+		4F5DF4EA1EAD52740031EB7B /* WPRTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DF4E91EAD52740031EB7B /* WPRTableViewCell.swift */; };
+		4F64893A1EAAF35E00860808 /* SubmitWPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6489391EAAF35E00860808 /* SubmitWPRViewController.swift */; };
+		4F919F3D1EA95C070041CBBB /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F919F3C1EA95C070041CBBB /* EditProfileViewController.swift */; };
+		4F919F3F1EA9AD160041CBBB /* SubmitWSRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F919F3E1EA9AD160041CBBB /* SubmitWSRViewController.swift */; };
+		4F938BAC1EADA2F6000EC48C /* BarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F938BAB1EADA2F6000EC48C /* BarGraphViewController.swift */; };
+		4F9EDA651EAD7140000EB212 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EDA641EAD7140000EB212 /* MapViewController.swift */; };
+		4FBD79EE1EB2A064008DC7DD /* PurityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD79ED1EB2A064008DC7DD /* PurityMapViewController.swift */; };
+		4FC27B591EA7A05E0018DC44 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC27B581EA7A05E0018DC44 /* CreateAccountViewController.swift */; };
+		4FC27B5B1EA7F81D0018DC44 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC27B5A1EA7F81D0018DC44 /* LandingViewController.swift */; };
+		4FC6AFF51E95C6B500C87F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC6AFF41E95C6B500C87F46 /* Main.storyboard */; };
 		4FC790411E5BB62500EAF310 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790401E5BB62500EAF310 /* AppDelegate.swift */; };
-		4FC790431E5BB62500EAF310 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790421E5BB62500EAF310 /* ViewController.swift */; };
-		4FC790461E5BB62500EAF310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC790441E5BB62500EAF310 /* Main.storyboard */; };
+		4FC790431E5BB62500EAF310 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790421E5BB62500EAF310 /* SignInViewController.swift */; };
 		4FC790481E5BB62500EAF310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC790471E5BB62500EAF310 /* Assets.xcassets */; };
 		4FC790561E5BB62500EAF310 /* WaterYouDrinkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790551E5BB62500EAF310 /* WaterYouDrinkingTests.swift */; };
 		4FC790611E5BB62500EAF310 /* WaterYouDrinkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC790601E5BB62500EAF310 /* WaterYouDrinkingUITests.swift */; };
@@ -39,10 +51,22 @@
 /* Begin PBXFileReference section */
 		070469611359A05088AFE9D0 /* Pods-WaterYouDrinkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterYouDrinkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterYouDrinkingUITests/Pods-WaterYouDrinkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		249A18B83BDA271A14E812C3 /* Pods-WaterYouDrinkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterYouDrinkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterYouDrinkingUITests/Pods-WaterYouDrinkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F451A541EAC5EBB001F3C09 /* WSRTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSRTableViewCell.swift; sourceTree = "<group>"; };
+		4F451A561EAC6035001F3C09 /* WSRTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSRTableViewController.swift; sourceTree = "<group>"; };
+		4F5DF4E71EAD510B0031EB7B /* WPRTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPRTableViewController.swift; sourceTree = "<group>"; };
+		4F5DF4E91EAD52740031EB7B /* WPRTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPRTableViewCell.swift; sourceTree = "<group>"; };
+		4F6489391EAAF35E00860808 /* SubmitWPRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitWPRViewController.swift; sourceTree = "<group>"; };
+		4F919F3C1EA95C070041CBBB /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4F919F3E1EA9AD160041CBBB /* SubmitWSRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitWSRViewController.swift; sourceTree = "<group>"; };
+		4F938BAB1EADA2F6000EC48C /* BarGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphViewController.swift; sourceTree = "<group>"; };
+		4F9EDA641EAD7140000EB212 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4FBD79ED1EB2A064008DC7DD /* PurityMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurityMapViewController.swift; sourceTree = "<group>"; };
+		4FC27B581EA7A05E0018DC44 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		4FC27B5A1EA7F81D0018DC44 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		4FC6AFF41E95C6B500C87F46 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4FC7903D1E5BB62500EAF310 /* WaterYouDrinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterYouDrinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC790401E5BB62500EAF310 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FC790421E5BB62500EAF310 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FC790451E5BB62500EAF310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FC790421E5BB62500EAF310 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4FC790471E5BB62500EAF310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC7904C1E5BB62500EAF310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FC790511E5BB62500EAF310 /* WaterYouDrinkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterYouDrinkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,12 +148,24 @@
 		4FC7903F1E5BB62500EAF310 /* WaterYouDrinking */ = {
 			isa = PBXGroup;
 			children = (
+				4FC6AFF41E95C6B500C87F46 /* Main.storyboard */,
 				4FC790401E5BB62500EAF310 /* AppDelegate.swift */,
-				4FC790421E5BB62500EAF310 /* ViewController.swift */,
-				4FC790441E5BB62500EAF310 /* Main.storyboard */,
 				4FC790471E5BB62500EAF310 /* Assets.xcassets */,
 				4FC7904C1E5BB62500EAF310 /* Info.plist */,
 				4FC7906E1E5BB71500EAF310 /* GoogleService-Info.plist */,
+				4FC790421E5BB62500EAF310 /* SignInViewController.swift */,
+				4FC27B581EA7A05E0018DC44 /* CreateAccountViewController.swift */,
+				4F919F3C1EA95C070041CBBB /* EditProfileViewController.swift */,
+				4FC27B5A1EA7F81D0018DC44 /* LandingViewController.swift */,
+				4F919F3E1EA9AD160041CBBB /* SubmitWSRViewController.swift */,
+				4F938BAB1EADA2F6000EC48C /* BarGraphViewController.swift */,
+				4F6489391EAAF35E00860808 /* SubmitWPRViewController.swift */,
+				4F451A561EAC6035001F3C09 /* WSRTableViewController.swift */,
+				4F451A541EAC5EBB001F3C09 /* WSRTableViewCell.swift */,
+				4F5DF4E71EAD510B0031EB7B /* WPRTableViewController.swift */,
+				4F5DF4E91EAD52740031EB7B /* WPRTableViewCell.swift */,
+				4F9EDA641EAD7140000EB212 /* MapViewController.swift */,
+				4FBD79ED1EB2A064008DC7DD /* PurityMapViewController.swift */,
 			);
 			path = WaterYouDrinking;
 			sourceTree = "<group>";
@@ -290,9 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC6AFF51E95C6B500C87F46 /* Main.storyboard in Resources */,
 				4FC7906F1E5BB71500EAF310 /* GoogleService-Info.plist in Resources */,
 				4FC790481E5BB62500EAF310 /* Assets.xcassets in Resources */,
-				4FC790461E5BB62500EAF310 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,8 +491,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC790431E5BB62500EAF310 /* ViewController.swift in Sources */,
+				4FC790431E5BB62500EAF310 /* SignInViewController.swift in Sources */,
+				4F5DF4E81EAD510B0031EB7B /* WPRTableViewController.swift in Sources */,
+				4F919F3F1EA9AD160041CBBB /* SubmitWSRViewController.swift in Sources */,
 				4FC790411E5BB62500EAF310 /* AppDelegate.swift in Sources */,
+				4FBD79EE1EB2A064008DC7DD /* PurityMapViewController.swift in Sources */,
+				4F938BAC1EADA2F6000EC48C /* BarGraphViewController.swift in Sources */,
+				4FC27B5B1EA7F81D0018DC44 /* LandingViewController.swift in Sources */,
+				4F5DF4EA1EAD52740031EB7B /* WPRTableViewCell.swift in Sources */,
+				4F451A571EAC6035001F3C09 /* WSRTableViewController.swift in Sources */,
+				4F919F3D1EA95C070041CBBB /* EditProfileViewController.swift in Sources */,
+				4FC27B591EA7A05E0018DC44 /* CreateAccountViewController.swift in Sources */,
+				4F64893A1EAAF35E00860808 /* SubmitWPRViewController.swift in Sources */,
+				4F9EDA651EAD7140000EB212 /* MapViewController.swift in Sources */,
+				4F451A551EAC5EBB001F3C09 /* WSRTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,17 +538,6 @@
 			targetProxy = 4FC7905D1E5BB62500EAF310 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4FC790441E5BB62500EAF310 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FC790451E5BB62500EAF310 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4FC790631E5BB62500EAF310 /* Debug */ = {
